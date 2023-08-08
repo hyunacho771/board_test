@@ -1,0 +1,59 @@
+/*Comment.css*/
+
+.Comment {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: transform 0.15s ease-out;
+}
+
+.Comment:hover {
+  transform: scale(1.02);
+}
+
+.Comment__avatar {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #2e81f4;
+}
+
+.Comment__username {
+  font-weight: 500;
+}
+
+.Comment__image {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.Comment__time {
+  color: gray;
+  font-weight: 500;
+  font-size: 10px;
+  margin-left: auto;
+}
+
+.Comment__delete {
+  color: gray;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Comment__delete > .MuiSvgIcon-root {
+  font-size: 22px !important;
+}
+
+.Comment__deleteButton {
+  display: none;
+}

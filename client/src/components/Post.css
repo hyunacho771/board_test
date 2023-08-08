@@ -1,0 +1,174 @@
+.Post {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.Post__top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Post__avatar {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #2e81f4;
+}
+
+.Post__topInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.Post__username {
+  font-weight: 500;
+}
+
+.Post__time {
+  color: gray;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.Post__bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Post__image {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.Post__options {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Post__option {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.15s ease;
+}
+
+.Post__option:hover {
+  background-color: whitesmoke;
+}
+
+.Post__option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.Post__option > .MuiSvgIcon-root {
+  font-size: 20px;
+}
+
+.Post__option > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.Post__option > h3 {
+  color: #2e81f4;
+}
+
+.Post__option:last-child {
+  border-left: 1px solid lightgray;
+}
+
+.Post__option:last-child > h3 {
+  color: gray;
+}
+
+.Post__option:last-child > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.Post__option:last-child:hover {
+  background-color: whitesmoke;
+}
+
+.Post__option:last-child:hover > h3 {
+  color: #2e81f4;
+}
+
+.Post__option:last-child:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+
+.Post__commentBox {
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.Post__commentBox > form > input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  outline-width: 0;
+}
+
+.Post__commentBox > form > button {
+  display: none;
+}
+
+.Post__like {
+  color: gray;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Post__like > .MuiSvgIcon-root {
+  font-size: 22px !important;
+}
+
+.Post__likesCount {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.Post__delete {
+  color: gray;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Post__delete > .MuiSvgIcon-root {
+  font-size: 22px !important;
+}
+
+.Post__deleteButton {
+  display: none;
+}
+
+.Post__deleteButton > button {
+  background-color: transparent;
+  border: none;
+  outline-width: 0;
+  color: gray;
+  cursor: pointer;
+}
+
+.Post__deleteButton > button:hover {
+  text-decoration: underline;
+}
+
+.Post__deleteButton > button > .MuiSvgIcon-root {
+  font-size: 22px !important;
+}

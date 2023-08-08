@@ -1,0 +1,36 @@
+/*PostDetail.css like Facebook*/
+
+.post-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.post-detail > div {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+}
+
+.post-detail > div > h2 {
+  margin: 0;
+}
+
+.post-detail > div > p {
+  margin: 0;
+}
+
+.post-detail > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-detail > div > div > button {
+  margin: 10px;
+}

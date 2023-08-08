@@ -1,0 +1,36 @@
+/*Home.css like Facebook*/
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.home > div {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+}
+
+.home > div > h2 {
+  margin: 0;
+}
+
+.home > div > p {
+  margin: 0;
+}
+
+.home > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.home > div > div > button {
+  margin: 10px;
+}

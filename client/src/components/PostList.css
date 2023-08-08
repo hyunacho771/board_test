@@ -1,0 +1,26 @@
+/*Postlist.css*/
+/* 
+ */
+.post-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.post-list > div {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+}
+
+.post-list > div > h2 {
+  margin: 0;
+}
+
+.post-list > div > p {
+  margin: 0;
+}

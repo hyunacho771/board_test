@@ -1,0 +1,36 @@
+/*PostList css like facebook*/
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.post-list > div {
+  margin: 5px;
+  border: 1px solid black;
+  padding: 50px;
+  width: 70%;
+}
+
+.post-list > div > h2 {
+  margin: 10;
+}
+
+.post-list > div > p {
+  margin: 10;
+}
+
+.post-list > div > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-list > div > div > button {
+  margin: 10px;
+}
